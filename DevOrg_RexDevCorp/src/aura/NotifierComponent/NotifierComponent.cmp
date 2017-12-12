@@ -1,0 +1,13 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="MyMessage" type="String"/>
+    <aura:registerEvent name="appEvent" type="c:ApplicationEvent"/>
+    
+    <aura:attribute name="SearchString" type="String" default="{!searchString}" access="global"/>
+    <aura:attribute name="isValid" type="String" default="false" access="global"/>
+    
+    <h1>Simple Application Event Sample - SEARCHSTRING = {!v.SearchString}</h1>
+    <p><lightning:button label="Click here to fire an application event"
+                         onclick="{!c.fireApplicationEvent}" />
+    </p>
+    
+</aura:component>

@@ -1,0 +1,12 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,force:lightningQuickAction,force:hasRecordId">
+    <c:HelloLightningChild firstName="Xen" recordId="{!v.recordId}"/>
+    
+    <aura:attribute name="contact" type="Contact" 
+               default="{ 'sobjectType': 'Contact' }"/>
+    
+<force:inputField aura:id="contactName" 
+                 value="{!v.contact.TestMulti__c}" change="{!c.myAction}"/>
+    
+    <lightning:button label="Search" onclick="{!c.myAction}"/>
+
+</aura:component>

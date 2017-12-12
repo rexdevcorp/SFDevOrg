@@ -1,0 +1,18 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <aura:attribute name="messageFromEvent" type="String"/>
+    <aura:attribute name="numEvents" type="Integer" default="0"/>
+    
+    <!-- Note that name="cmpEvent" in aura:registerEvent
+     in ceNotifier.cmp -->
+    <!--<aura:handler name="cmpEvent" event="c:testComponentEvent" action="{!c.handleComponentEvent}"/>-->
+    
+    <!-- handler contains the notifier component -->
+    <!--<c:testChildComponent />
+    
+    <p>{!v.messageFromEvent}</p>
+    <p>Number of events: {!v.numEvents}</p>-->
+  
+        <c:LightningTable object="Account" fields="Id,Name,Phone" pageSize="10" />
+  
+    
+</aura:component>

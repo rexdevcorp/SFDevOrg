@@ -1,0 +1,23 @@
+<aura:component >
+    <aura:attribute name="Name" type="String"/>
+    <aura:attribute name="isChecked" type="Boolean" default="False"/>
+    
+    <div class="slds-form-element">
+        <div class="slds-form-element__control">
+            <span class="slds-checkbox">
+                <input type="checkbox" name="options" id="checkbox-4" value="on" onclick="{!c.checkBox}"/>
+                    <label class="slds-checkbox__label" for="checkbox-4">
+                        <span class="slds-checkbox_faux"></span>
+                    </label>
+                </span>
+            </div>
+        </div>
+    
+    <aura:if isTrue="{!v.isChecked}">
+        AURA IF - TRUE
+        <aura:set attribute="else">
+        AURA IF - FALSE
+        </aura:set>
+    </aura:if>
+
+</aura:component>

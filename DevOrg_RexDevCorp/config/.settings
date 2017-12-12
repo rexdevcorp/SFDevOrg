@@ -1,0 +1,18 @@
+{
+    "projectName": "DevOrg_RexDevCorp",
+    "username": "rexie.aaron.a.david@devcorp.com",
+    "id": "591038e0-dee2-11e7-9eed-5bf24daf31fd",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://lightningtrainingsession3-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\rex.david\\Desktop\\EMAPTA\\Workspace",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AuraDefinitionBundle",
+        "StaticResource"
+    ]
+}

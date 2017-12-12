@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable">
+    <c:lts_jasmineRunner testFiles="{!join(',', 
+		$Resource.jasmineExampleTests
+    )}" />
+    <!-- <ui:inputCurrency aura:id="amount" label="Amount" class="field"/>
+    <ui:button aura:id="button" buttonTitle="Click" class="button" label="Click me" press="{!c.getInput}"/> -->
+<!-- $Resource.jasmineHelloWorldTests, ,
+        $Resource.jasmineLightningDataServiceTests -->
+</aura:component>

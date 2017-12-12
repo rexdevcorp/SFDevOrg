@@ -1,0 +1,7 @@
+<aura:component >
+    <aura:attribute name="iconName" type="String"/>
+    <aura:attribute name="size" type="String"/>
+    <aura:attribute name="alternativeText" type="String"/>
+    
+	<lightning:icon iconName="{!v.iconName}" size="{!v.size}" alternativeText="{v.alternativeText}"/>
+</aura:component>
