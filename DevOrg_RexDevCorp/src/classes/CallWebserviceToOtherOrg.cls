@@ -42,6 +42,11 @@ public with sharing class CallWebserviceToOtherOrg {
 		  system.debug('RESPONSE_BODY='+deserializedInvoices);
 		}
 	}
+	//JCC-1243
+	public static void fireWebService(){
+		
+		}
+	}
 	/*To get aouthentication detail Wrapper*/
 	public class OAuth2{
 		public String id{get;set;}
